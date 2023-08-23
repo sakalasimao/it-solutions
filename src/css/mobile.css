@@ -1,0 +1,82 @@
+body{
+    overflow-x: hidden;
+}
+
+#navbar #navbar-container .logo{
+display: none;
+}
+
+#navbar{
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+    font-size: 15px;
+}
+
+#navbar #navbar-container{
+    justify-content: center;
+}
+#navbar #navbar-container #navbar-items li i{
+    display: block;
+}
+#navbar #navbar-container #navbar-items li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+
+#showcase{
+    object-fit: cover;
+    padding: 15px;
+   
+}
+
+#features #features-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#clients-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+#product-container{
+    flex-direction: column;
+    
+}
+.items{
+    width: 90%;
+}
+
+.items .item{
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.testimonial{
+    font-size: 1rem;
+    flex-direction: column;
+    text-align: center;
+}
+#testimonials-container .testimonial-image{
+    height: 100px;
+}
+
+#gallery-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.gallery-image{
+    width: 100%;
+}
+
+#footer
+{
+    margin-bottom: 80px;
+}

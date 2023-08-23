@@ -69,6 +69,10 @@ body{
     padding: 10px;
 }
 
+#navbar #navbar-container #navbar-items li i{
+    display: none;
+}
+
 #navbar-items a{
     text-decoration: none;
     color: inherit;
@@ -237,3 +241,4 @@ font-weight: bold;
     text-align: center;
 
 }
+
