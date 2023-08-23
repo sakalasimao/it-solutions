@@ -42,6 +42,7 @@ body{
     background: #111;
     color: #eee;
     height: 80px;
+    position: fixed;
 }
 
 #navbar-container{
@@ -68,8 +69,14 @@ body{
     padding: 10px;
 }
 
+#navbar-items a{
+    text-decoration: none;
+    color: inherit;
+    transition: 3s;
+}
+
 #showcase{
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,4 +116,124 @@ body{
 .client{
     display: inline-block;
     width: 25%;
+}
+
+#features{
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+   
+}
+
+#features-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 2px;
+}
+
+
+.feature-title{
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+
+#product{
+    width: 100%;
+    padding: 50px;
+}
+
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    width: 500px;
+}
+
+.items .item{
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    gap: 10px;
+
+}
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+
+}
+
+#testimonials{
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+
+#testimonials-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonials-container .testimonial-image{
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 15px;
+    
+}
+
+#gallery{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+#gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+
+}
+
+.gallery-image{
+    display: inline-block;
+    width: 340px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#footer{
+    background: #222;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+
 }
